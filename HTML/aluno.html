@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../CSS/home.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header class="w3-container w3-padding-4 w3-section w3-lime" style="padding-left: 10px">
@@ -31,7 +30,7 @@
 				</div>
 
 			  	<a href="#" class="w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  close Menu</a>
-			  	<a id="btn-aluno" onclick="telaAluno()" href="#" class="w3-padding"><i class="material-icons md-18">face</i>Alunos</a>
+			  	<a href="#" class="w3-padding w3-blue"><i class="material-icons md-18">face</i>Alunos</a>
 			  	<a href="#" class="w3-padding"><i class="fa fa-users fa-fw"></i>	Turmas</a>
 			  	<a href="#" class="w3-padding"><i class="material-icons md-18">face</i>	Professores</a>
 			  	<a href="#" class="w3-padding"><i class="fa fa-history fa-fw"></i>	Histórico de Chamadas</a>
@@ -40,9 +39,9 @@
 
 			<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-			<div id="div-conteudo" class="w3-main" style="margin-left:300px;margin-top:20px;">
+			<div class="w3-main" style="margin-left:300px;margin-top:20px;">
 				<header class="w3-container" style="padding-top:22px">
-	    			<h5><b><i class="fa fa-dashboard"></i> Meu Quadro</b></h5>
+	    			<h5><b><i class="fa fa-dashboard"></i>Quadro de Alunos</b></h5>
 	  			</header>
 
 	  			<div id="quadro" class="w3-row-padding w3-margin-bottom">
@@ -74,6 +73,5 @@
 			</div>
 
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="../JS/alunoJS.js"></script>
 	</body>
 </html>
